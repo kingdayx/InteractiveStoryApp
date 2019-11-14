@@ -20,7 +20,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
-        android:contentDescription="Signals from Mars title image"
+        android:contentDescription="@string/signals_from_mars_title_image"
         android:cropToPadding="true"
         android:scaleType="fitXY"
         app:layout_constraintEnd_toEndOf="parent"
@@ -39,7 +39,7 @@
 
     <EditText
         android:id="@+id/nameEditText"
-        android:layout_width="0DP"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Enter your name"
